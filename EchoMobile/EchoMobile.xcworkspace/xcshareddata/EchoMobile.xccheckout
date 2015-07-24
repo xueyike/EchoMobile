@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8B22A6B3-9611-497C-9684-186CC82FF1C9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EchoMobile</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E1F0C30CC62A3E19AA5B3FF709A59B0DFFF7E2D9</key>
+		<string>https://github.com/xueyike/EchoMobile.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EchoMobile/EchoMobile.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E1F0C30CC62A3E19AA5B3FF709A59B0DFFF7E2D9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/xueyike/EchoMobile.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E1F0C30CC62A3E19AA5B3FF709A59B0DFFF7E2D9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E1F0C30CC62A3E19AA5B3FF709A59B0DFFF7E2D9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EchoMobile</string>
+		</dict>
+	</array>
+</dict>
+</plist>

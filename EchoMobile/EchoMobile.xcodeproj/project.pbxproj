@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BD322861B5FD74B0089C791 /* newEMBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD322851B5FD74B0089C791 /* newEMBViewController.m */; };
+		9A867DFA1A0782390010B57E /* EMVoiceCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A867DF91A0782390010B57E /* EMVoiceCall.m */; };
+		9AD6BB7819FE23BE007AA64D /* EMCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6BB7719FE23BE007AA64D /* EMCallViewController.m */; };
+		D8BE76E11A1C58910082684A /* download2-128.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BE76E01A1C58910082684A /* download2-128.png */; };
+		D8C6690119EBD301003B5E76 /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = D8C6690019EBD301003B5E76 /* call.png */; };
+		D8C6690319EBE8DC003B5E76 /* sms.png in Resources */ = {isa = PBXBuildFile; fileRef = D8C6690219EBE8DC003B5E76 /* sms.png */; };
+		D8CB549319E4F7C800693C85 /* Default@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CB549219E4F7C800693C85 /* Default@2x~ipad.png */; };
+		D8D3426419E2AE2B0099F99B /* EMMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D3426319E2AE2A0099F99B /* EMMapViewController.m */; };
+		D8D3426619E2B09E0099F99B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D3426519E2B09E0099F99B /* MapKit.framework */; };
+		D8D55BA019DA8AEB005658C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D55B9F19DA8AEB005658C0 /* Foundation.framework */; };
+		D8D55BA219DA8AEB005658C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D55BA119DA8AEB005658C0 /* CoreGraphics.framework */; };
+		D8D55BA419DA8AEB005658C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D55BA319DA8AEB005658C0 /* UIKit.framework */; };
+		D8D55BAA19DA8AEB005658C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8D55BA819DA8AEB005658C0 /* InfoPlist.strings */; };
+		D8D55BAC19DA8AEB005658C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D55BAB19DA8AEB005658C0 /* main.m */; };
+		D8D55BB019DA8AEB005658C0 /* EMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D55BAF19DA8AEB005658C0 /* EMAppDelegate.m */; };
+		D8D55BB319DA8AEB005658C0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D55BB119DA8AEB005658C0 /* Main_iPhone.storyboard */; };
+		D8D55BB619DA8AEB005658C0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D55BB419DA8AEB005658C0 /* Main_iPad.storyboard */; };
+		D8D55BB919DA8AEB005658C0 /* EMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D55BB819DA8AEB005658C0 /* EMFirstViewController.m */; };
+		D8D55BBC19DA8AEB005658C0 /* EMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D55BBB19DA8AEB005658C0 /* EMSecondViewController.m */; };
+		D8D55BBE19DA8AEB005658C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D55BBD19DA8AEB005658C0 /* Images.xcassets */; };
+		D8D55BDF19DAAF3D005658C0 /* EMParamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D55BDE19DAAF3D005658C0 /* EMParamCell.m */; };
+		D8D55BE119DAD722005658C0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D55BE019DAD722005658C0 /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C29C64A5C8BCBB36E7AD5C6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6BD322841B5FD74B0089C791 /* newEMBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newEMBViewController.h; sourceTree = "<group>"; };
+		6BD322851B5FD74B0089C791 /* newEMBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newEMBViewController.m; sourceTree = "<group>"; };
+		6BD3228F1B6168720089C791 /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCocoaAsyncSocket.a; path = "Pods/../build/Debug-iphoneos/libCocoaAsyncSocket.a"; sourceTree = "<group>"; };
+		9A867DF81A0782390010B57E /* EMVoiceCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVoiceCall.h; sourceTree = "<group>"; };
+		9A867DF91A0782390010B57E /* EMVoiceCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMVoiceCall.m; sourceTree = "<group>"; };
+		9AD6BB7619FE23BE007AA64D /* EMCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallViewController.h; sourceTree = "<group>"; };
+		9AD6BB7719FE23BE007AA64D /* EMCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMCallViewController.m; sourceTree = "<group>"; };
+		C0712476BC153FAEAEB5B8B0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D8BE76E01A1C58910082684A /* download2-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download2-128.png"; sourceTree = "<group>"; };
+		D8C6690019EBD301003B5E76 /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		D8C6690219EBE8DC003B5E76 /* sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sms.png; sourceTree = "<group>"; };
+		D8CB549219E4F7C800693C85 /* Default@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~ipad.png"; sourceTree = "<group>"; };
+		D8D3426219E2AE2A0099F99B /* EMMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMapViewController.h; sourceTree = "<group>"; };
+		D8D3426319E2AE2A0099F99B /* EMMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMMapViewController.m; sourceTree = "<group>"; };
+		D8D3426519E2B09E0099F99B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D8D55B9C19DA8AEB005658C0 /* EchoMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EchoMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D55B9F19DA8AEB005658C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8D55BA119DA8AEB005658C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8D55BA319DA8AEB005658C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8D55BA719DA8AEB005658C0 /* EchoMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EchoMobile-Info.plist"; sourceTree = "<group>"; };
+		D8D55BA919DA8AEB005658C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8D55BAB19DA8AEB005658C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8D55BAD19DA8AEB005658C0 /* EchoMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EchoMobile-Prefix.pch"; sourceTree = "<group>"; };
+		D8D55BAE19DA8AEB005658C0 /* EMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMAppDelegate.h; sourceTree = "<group>"; };
+		D8D55BAF19DA8AEB005658C0 /* EMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMAppDelegate.m; sourceTree = "<group>"; };
+		D8D55BB219DA8AEB005658C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D8D55BB519DA8AEB005658C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D8D55BB719DA8AEB005658C0 /* EMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMFirstViewController.h; sourceTree = "<group>"; };
+		D8D55BB819DA8AEB005658C0 /* EMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMFirstViewController.m; sourceTree = "<group>"; };
+		D8D55BBA19DA8AEB005658C0 /* EMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMSecondViewController.h; sourceTree = "<group>"; };
+		D8D55BBB19DA8AEB005658C0 /* EMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMSecondViewController.m; sourceTree = "<group>"; };
+		D8D55BBD19DA8AEB005658C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8D55BDD19DAAF3D005658C0 /* EMParamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMParamCell.h; sourceTree = "<group>"; };
+		D8D55BDE19DAAF3D005658C0 /* EMParamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMParamCell.m; sourceTree = "<group>"; };
+		D8D55BE019DAD722005658C0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8D55B9919DA8AEB005658C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D3426619E2B09E0099F99B /* MapKit.framework in Frameworks */,
+				D8D55BE119DAD722005658C0 /* CoreTelephony.framework in Frameworks */,
+				D8D55BA219DA8AEB005658C0 /* CoreGraphics.framework in Frameworks */,
+				D8D55BA419DA8AEB005658C0 /* UIKit.framework in Frameworks */,
+				D8D55BA019DA8AEB005658C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2BD3A1DEF0850E320896EFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0712476BC153FAEAEB5B8B0 /* Pods.debug.xcconfig */,
+				0C29C64A5C8BCBB36E7AD5C6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8D55B9319DA8AEA005658C0 = {
+			isa = PBXGroup;
+			children = (
+				D8CB549219E4F7C800693C85 /* Default@2x~ipad.png */,
+				D8D55BA519DA8AEB005658C0 /* EchoMobile */,
+				D8D55B9E19DA8AEB005658C0 /* Frameworks */,
+				D8D55B9D19DA8AEB005658C0 /* Products */,
+				B2BD3A1DEF0850E320896EFC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D8D55B9D19DA8AEB005658C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8D55B9C19DA8AEB005658C0 /* EchoMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8D55B9E19DA8AEB005658C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BD3228F1B6168720089C791 /* libCocoaAsyncSocket.a */,
+				D8D3426519E2B09E0099F99B /* MapKit.framework */,
+				D8D55BE019DAD722005658C0 /* CoreTelephony.framework */,
+				D8D55B9F19DA8AEB005658C0 /* Foundation.framework */,
+				D8D55BA119DA8AEB005658C0 /* CoreGraphics.framework */,
+				D8D55BA319DA8AEB005658C0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8D55BA519DA8AEB005658C0 /* EchoMobile */ = {
+			isa = PBXGroup;
+			children = (
+				D8D55BAE19DA8AEB005658C0 /* EMAppDelegate.h */,
+				D8D55BAF19DA8AEB005658C0 /* EMAppDelegate.m */,
+				D8D55BB119DA8AEB005658C0 /* Main_iPhone.storyboard */,
+				D8D55BB419DA8AEB005658C0 /* Main_iPad.storyboard */,
+				D8D55BB719DA8AEB005658C0 /* EMFirstViewController.h */,
+				D8D55BB819DA8AEB005658C0 /* EMFirstViewController.m */,
+				D8D55BDD19DAAF3D005658C0 /* EMParamCell.h */,
+				D8D55BDE19DAAF3D005658C0 /* EMParamCell.m */,
+				D8D55BBA19DA8AEB005658C0 /* EMSecondViewController.h */,
+				D8D55BBB19DA8AEB005658C0 /* EMSecondViewController.m */,
+				D8D3426219E2AE2A0099F99B /* EMMapViewController.h */,
+				D8D3426319E2AE2A0099F99B /* EMMapViewController.m */,
+				9AD6BB7619FE23BE007AA64D /* EMCallViewController.h */,
+				9AD6BB7719FE23BE007AA64D /* EMCallViewController.m */,
+				9A867DF81A0782390010B57E /* EMVoiceCall.h */,
+				9A867DF91A0782390010B57E /* EMVoiceCall.m */,
+				6BD322841B5FD74B0089C791 /* newEMBViewController.h */,
+				6BD322851B5FD74B0089C791 /* newEMBViewController.m */,
+				D8D55BA619DA8AEB005658C0 /* Supporting Files */,
+			);
+			path = EchoMobile;
+			sourceTree = "<group>";
+		};
+		D8D55BA619DA8AEB005658C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8BE76E01A1C58910082684A /* download2-128.png */,
+				D8D55BBD19DA8AEB005658C0 /* Images.xcassets */,
+				D8C6690219EBE8DC003B5E76 /* sms.png */,
+				D8C6690019EBD301003B5E76 /* call.png */,
+				D8D55BA719DA8AEB005658C0 /* EchoMobile-Info.plist */,
+				D8D55BA819DA8AEB005658C0 /* InfoPlist.strings */,
+				D8D55BAB19DA8AEB005658C0 /* main.m */,
+				D8D55BAD19DA8AEB005658C0 /* EchoMobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8D55B9B19DA8AEB005658C0 /* EchoMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D55BD419DA8AEC005658C0 /* Build configuration list for PBXNativeTarget "EchoMobile" */;
+			buildPhases = (
+				7807A83341FFA1521CC7F5DA /* Check Pods Manifest.lock */,
+				D8D55B9819DA8AEB005658C0 /* Sources */,
+				D8D55B9919DA8AEB005658C0 /* Frameworks */,
+				D8D55B9A19DA8AEB005658C0 /* Resources */,
+				E89F2883CE6F39BB3ACD642D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EchoMobile;
+			productName = EchoMobile;
+			productReference = D8D55B9C19DA8AEB005658C0 /* EchoMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8D55B9419DA8AEB005658C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EM;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "AT&T";
+			};
+			buildConfigurationList = D8D55B9719DA8AEB005658C0 /* Build configuration list for PBXProject "EchoMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8D55B9319DA8AEA005658C0;
+			productRefGroup = D8D55B9D19DA8AEB005658C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8D55B9B19DA8AEB005658C0 /* EchoMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8D55B9A19DA8AEB005658C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CB549319E4F7C800693C85 /* Default@2x~ipad.png in Resources */,
+				D8C6690319EBE8DC003B5E76 /* sms.png in Resources */,
+				D8C6690119EBD301003B5E76 /* call.png in Resources */,
+				D8D55BB619DA8AEB005658C0 /* Main_iPad.storyboard in Resources */,
+				D8D55BBE19DA8AEB005658C0 /* Images.xcassets in Resources */,
+				D8D55BB319DA8AEB005658C0 /* Main_iPhone.storyboard in Resources */,
+				D8BE76E11A1C58910082684A /* download2-128.png in Resources */,
+				D8D55BAA19DA8AEB005658C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7807A83341FFA1521CC7F5DA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E89F2883CE6F39BB3ACD642D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8D55B9819DA8AEB005658C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD6BB7819FE23BE007AA64D /* EMCallViewController.m in Sources */,
+				6BD322861B5FD74B0089C791 /* newEMBViewController.m in Sources */,
+				D8D55BBC19DA8AEB005658C0 /* EMSecondViewController.m in Sources */,
+				D8D3426419E2AE2B0099F99B /* EMMapViewController.m in Sources */,
+				D8D55BB019DA8AEB005658C0 /* EMAppDelegate.m in Sources */,
+				9A867DFA1A0782390010B57E /* EMVoiceCall.m in Sources */,
+				D8D55BDF19DAAF3D005658C0 /* EMParamCell.m in Sources */,
+				D8D55BB919DA8AEB005658C0 /* EMFirstViewController.m in Sources */,
+				D8D55BAC19DA8AEB005658C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8D55BA819DA8AEB005658C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D55BA919DA8AEB005658C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8D55BB119DA8AEB005658C0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D55BB219DA8AEB005658C0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D8D55BB419DA8AEB005658C0 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D55BB519DA8AEB005658C0 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8D55BD219DA8AEC005658C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6418b25a-9c97-4748-ab0c-21e06f644515";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8D55BD319DA8AEC005658C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "6418b25a-9c97-4748-ab0c-21e06f644515";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8D55BD519DA8AEC005658C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0712476BC153FAEAEB5B8B0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EchoMobile/EchoMobile-Prefix.pch";
+				INFOPLIST_FILE = "EchoMobile/EchoMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6418b25a-9c97-4748-ab0c-21e06f644515";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8D55BD619DA8AEC005658C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C29C64A5C8BCBB36E7AD5C6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EchoMobile/EchoMobile-Prefix.pch";
+				INFOPLIST_FILE = "EchoMobile/EchoMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6418b25a-9c97-4748-ab0c-21e06f644515";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8D55B9719DA8AEB005658C0 /* Build configuration list for PBXProject "EchoMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D55BD219DA8AEC005658C0 /* Debug */,
+				D8D55BD319DA8AEC005658C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D55BD419DA8AEC005658C0 /* Build configuration list for PBXNativeTarget "EchoMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D55BD519DA8AEC005658C0 /* Debug */,
+				D8D55BD619DA8AEC005658C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8D55B9419DA8AEB005658C0 /* Project object */;
+}
